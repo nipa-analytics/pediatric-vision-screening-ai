@@ -1,4 +1,4 @@
-# Pediatric Vision Screening AI 👁️
+# Pediatric Vision Screening AI
 Independent research portfolio exploring AI-assisted pediatric vision screening, real-world validation, and healthcare AI deployment challenges.
 
 ## About This Repository

@@ -40,9 +40,9 @@ Current focus:
 
 ## Related Writing
 
-- Medium article: [Add your Medium link]
-- LinkedIn article: [Add your LinkedIn article link]
-- Community awareness article: [Add your Patch NJ link]
+- Medium article: https://medium.com/@nipashah2311/why-pediatric-vision-ai-still-faces-real-world-challenges-cde1906376c3
+- LinkedIn article: https://www.linkedin.com/pulse/100-million-children-have-lazy-eye-crossed-eyes-ai-can-nipa-s-7rmpe/
+- Community awareness article: https://patch.com/new-jersey/jersey-city/your-child-could-have-vision-problem-right-now-what-every-jersey-city-parent-nodx
 
 ## Researcher
 
@@ -52,7 +52,7 @@ MS Business Analytics — Sacred Heart University
 MBA  
 
 LinkedIn: https://www.linkedin.com/in/nipa-s-486287382/
-ORCID: https://orcid.org/my-orcid?orcid=0009-0009-4115-9652
+ORCID: https://orcid.org/0009-0009-4115-9652
 
 ## Disclaimer
 

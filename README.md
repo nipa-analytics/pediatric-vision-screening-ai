@@ -60,6 +60,14 @@ MBA
 LinkedIn: https://www.linkedin.com/in/nipa-s-486287382/
 ORCID: https://orcid.org/0009-0009-4115-9652
 
+## Intellectual Property Notice
+
+This repository represents independent research exploration by Nipa Shah. All written research concepts, workflow frameworks, responsible AI documentation, article summaries, and original analysis are authored by Nipa Shah unless otherwise cited.
+
+This work is shared publicly for educational, research, and collaboration purposes. Reuse, adaptation, or citation should provide appropriate attribution.
+
+Commercial use, clinical deployment, medical device development, or proprietary use of this work requires written permission from the author.
+
 ## Disclaimer
 
 This repository reflects independent research exploration and educational work. It is not intended to provide medical advice, clinical diagnosis, or clinical guidance.

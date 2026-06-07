@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Pediatric Vision Screening AI"
+message: "If you use or reference this repository, please cite it as below."
+type: software
+authors:
+  - family-names: Shah
+    given-names: Nipa
+    orcid: "https://orcid.org/0009-0009-4115-9652"
+repository-code: "https://github.com/nipa-analytics/pediatric-vision-screening-ai"
+abstract: "Independent research portfolio exploring responsible AI-assisted early pediatric vision risk detection, with emphasis on amblyopia, strabismus, hospital workflows, EHR-connected risk signals, referral pathways, and real-world validation before age 3."
+keywords:
+  - pediatric vision AI
+  - responsible AI
+  - amblyopia
+  - strabismus
+  - healthcare AI
+  - EHR
+  - early detection
+license: "CC-BY-NC-4.0"

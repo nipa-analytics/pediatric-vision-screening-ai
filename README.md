@@ -28,7 +28,9 @@ This repository is intended to serve as a public research portfolio, including:
 
 ## Current Status
 
-Early-stage independent research and technical exploration.
+This repository now focuses on responsible AI-assisted early pediatric vision risk detection before age 3, with emphasis on hospital and pediatric healthcare workflows, EHR-connected risk signals, referral pathways, and real-world validation.
+
+The goal is not clinical diagnosis but to explore how AI can support earlier identification of children who may need professional eye care evaluation.
 
 Current focus:
 

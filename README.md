@@ -49,6 +49,8 @@ Current focus:
 ## Research Ethics Preparation 
 - Completed CITI Program Biomedical Research Refresher 1, covering human subjects research protections, informed consent, IRB awareness, privacy, and responsible conduct considerations relevant to healthcare AI research 
 - https://www.citiprogram.org/verify/?w57352384-4e66-4ee7-b4e0-b2b159dc681f-77378035
+-  CITI Program — Artificial Intelligence (AI) and Human Subject Protections
+-  https://www.citiprogram.org/verify/?wec03ac2c-68fc-4a90-bec8-479e2661de66-77378040
   
 ## Researcher
 

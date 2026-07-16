@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 0.0
 title: "Pediatric Vision Screening AI"
 message: "If you use or reference this repository, please cite it as below."
 type: software
@@ -18,3 +18,14 @@ keywords:
   - early detection
 license: "CC-BY-NC-4.0"
 date-released: "2026-06-04"
+
+Cff-version: 1.1
+title: "Responsible AI-Assisted Early Pediatric Vision Risk Detection Before Age 3"
+authors:
+  - family-names: Shah
+    given-names: Nipa
+    orcid: https://orcid.org/0009-0009-4115-9652
+    date-released: 2026-07-08
+    doi: 10.5281/zenodo.21386465
+    url: https://doi.org/10.5281/zenodo.21386465
+

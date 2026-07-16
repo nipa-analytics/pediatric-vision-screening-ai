@@ -46,6 +46,17 @@ Current focus:
 - LinkedIn article: https://www.linkedin.com/pulse/100-million-children-have-lazy-eye-crossed-eyes-ai-can-nipa-s-7rmpe/
 - Community awareness article: https://patch.com/new-jersey/jersey-city/your-child-could-have-vision-problem-right-now-what-every-jersey-city-parent-nodx
 
+## Published White Paper
+
+**Responsible AI-Assisted Early 
+Pediatric Vision Risk Detection 
+Before Age 3**
+
+Published: July 2026
+DOI: https://doi.org/10.5281/
+zenodo.21386465
+Access: Open Access
+
 ## Research Ethics Preparation 
 - Completed CITI Program Biomedical Research Refresher 1, covering human subjects research protections, informed consent, IRB awareness, privacy, and responsible conduct considerations relevant to healthcare AI research 
 - https://www.citiprogram.org/verify/?w57352384-4e66-4ee7-b4e0-b2b159dc681f-77378035

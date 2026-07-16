@@ -1,11 +1,12 @@
-cff-version: 0.0
-title: "Pediatric Vision Screening AI"
-message: "If you use or reference this repository, please cite it as below."
-type: software
+Cff-version: 1.1
+title: "Responsible AI-Assisted Early Pediatric Vision Risk Detection Before Age 3"
 authors:
   - family-names: Shah
     given-names: Nipa
-    orcid: "https://orcid.org/0009-0009-4115-9652"
+    orcid: https://orcid.org/0009-0009-4115-9652
+    date-released: 2026-07-08
+    doi: 10.5281/zenodo.21386465
+    url: https://doi.org/10.5281/zenodo.21386465
 repository-code: "https://github.com/nipa-analytics/pediatric-vision-screening-ai"
 abstract: "Independent research portfolio exploring responsible AI-assisted early pediatric vision risk detection, with emphasis on amblyopia, strabismus, hospital workflows, EHR-connected risk signals, referral pathways, and real-world validation before age 3."
 keywords:
@@ -19,13 +20,4 @@ keywords:
 license: "CC-BY-NC-4.0"
 date-released: "2026-06-04"
 
-Cff-version: 1.1
-title: "Responsible AI-Assisted Early Pediatric Vision Risk Detection Before Age 3"
-authors:
-  - family-names: Shah
-    given-names: Nipa
-    orcid: https://orcid.org/0009-0009-4115-9652
-    date-released: 2026-07-08
-    doi: 10.5281/zenodo.21386465
-    url: https://doi.org/10.5281/zenodo.21386465
 

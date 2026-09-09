@@ -53,8 +53,7 @@ Pediatric Vision Risk Detection
 Before Age 3**
 
 Published: July 2026
-DOI: https://doi.org/10.5281/
-zenodo.21386465
+DOI: https://doi.org/10.5281/zenodo.21386465
 Access: Open Access
 
 ## Research Ethics Preparation 

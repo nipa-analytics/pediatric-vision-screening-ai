@@ -1,0 +1,38 @@
+[
+  {
+    "patient_id": "pv-001",
+    "given_name": "Avery",
+    "gender": "female",
+    "birth_date": "2024-08-12",
+    "family_history_strabismus_or_amblyopia": true,
+    "prematurity_or_low_birth_weight": false,
+    "clinician_observed_alignment_concern": true,
+    "prior_vision_screen_concern": true,
+    "caregiver_visual_behavior_concern": false,
+    "developmental_or_neurologic_risk_context": false
+  },
+  {
+    "patient_id": "pv-002",
+    "given_name": "Jordan",
+    "gender": "male",
+    "birth_date": "2025-02-03",
+    "family_history_strabismus_or_amblyopia": false,
+    "prematurity_or_low_birth_weight": true,
+    "clinician_observed_alignment_concern": false,
+    "prior_vision_screen_concern": false,
+    "caregiver_visual_behavior_concern": true,
+    "developmental_or_neurologic_risk_context": false
+  },
+  {
+    "patient_id": "pv-003",
+    "given_name": "Riley",
+    "gender": "unknown",
+    "birth_date": "2024-12-20",
+    "family_history_strabismus_or_amblyopia": null,
+    "prematurity_or_low_birth_weight": null,
+    "clinician_observed_alignment_concern": true,
+    "prior_vision_screen_concern": null,
+    "caregiver_visual_behavior_concern": null,
+    "developmental_or_neurologic_risk_context": false
+  }
+]

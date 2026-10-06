@@ -1,0 +1,299 @@
+{
+  "assessment": {
+    "patient_id": "pv-001",
+    "status": "complete",
+    "research_priority": "high-review-priority",
+    "illustrative_score": 8,
+    "data_completeness": 1.0,
+    "triggered_signals": [
+      "family_history_strabismus_or_amblyopia",
+      "clinician_observed_alignment_concern",
+      "prior_vision_screen_concern"
+    ],
+    "rationale": [
+      "family history strabismus or amblyopia contributed 2 illustrative point(s).",
+      "clinician observed alignment concern contributed 3 illustrative point(s).",
+      "prior vision screen concern contributed 3 illustrative point(s)."
+    ],
+    "abstained": false,
+    "disclaimer": "Research prototype only. Not clinically validated. Not a diagnosis, medical device, screening tool, or referral recommendation. Clinician judgment remains authoritative."
+  },
+  "fhir_bundle": {
+    "resourceType": "Bundle",
+    "type": "collection",
+    "entry": [
+      {
+        "resource": {
+          "resourceType": "Patient",
+          "id": "pv-001",
+          "active": true,
+          "identifier": [
+            {
+              "system": "https://example.org/research/patient-id",
+              "value": "pv-001"
+            }
+          ],
+          "name": [
+            {
+              "use": "official",
+              "family": "Synthetic",
+              "given": [
+                "Avery"
+              ]
+            }
+          ],
+          "gender": "female",
+          "birthDate": "2024-08-12"
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "pv-001-family-history-strabismus-or-amblyopia",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                "code": "family_history_strabismus_or_amblyopia"
+              }
+            ],
+            "text": "family history strabismus or amblyopia"
+          },
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "valueBoolean": true,
+          "note": [
+            {
+              "text": "Synthetic research input; not a clinical observation."
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "pv-001-prematurity-or-low-birth-weight",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                "code": "prematurity_or_low_birth_weight"
+              }
+            ],
+            "text": "prematurity or low birth weight"
+          },
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "valueBoolean": false,
+          "note": [
+            {
+              "text": "Synthetic research input; not a clinical observation."
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "pv-001-clinician-observed-alignment-concern",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                "code": "clinician_observed_alignment_concern"
+              }
+            ],
+            "text": "clinician observed alignment concern"
+          },
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "valueBoolean": true,
+          "note": [
+            {
+              "text": "Synthetic research input; not a clinical observation."
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "pv-001-prior-vision-screen-concern",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                "code": "prior_vision_screen_concern"
+              }
+            ],
+            "text": "prior vision screen concern"
+          },
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "valueBoolean": true,
+          "note": [
+            {
+              "text": "Synthetic research input; not a clinical observation."
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "pv-001-caregiver-visual-behavior-concern",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                "code": "caregiver_visual_behavior_concern"
+              }
+            ],
+            "text": "caregiver visual behavior concern"
+          },
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "valueBoolean": false,
+          "note": [
+            {
+              "text": "Synthetic research input; not a clinical observation."
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "Observation",
+          "id": "pv-001-developmental-or-neurologic-risk-context",
+          "status": "final",
+          "code": {
+            "coding": [
+              {
+                "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                "code": "developmental_or_neurologic_risk_context"
+              }
+            ],
+            "text": "developmental or neurologic risk context"
+          },
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "valueBoolean": false,
+          "note": [
+            {
+              "text": "Synthetic research input; not a clinical observation."
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "RiskAssessment",
+          "id": "ra-pv-001",
+          "status": "final",
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "occurrenceDateTime": "2026-10-04T19:01:42.348215+00:00",
+          "basis": [
+            {
+              "reference": "Observation/pv-001-family-history-strabismus-or-amblyopia"
+            },
+            {
+              "reference": "Observation/pv-001-prematurity-or-low-birth-weight"
+            },
+            {
+              "reference": "Observation/pv-001-clinician-observed-alignment-concern"
+            },
+            {
+              "reference": "Observation/pv-001-prior-vision-screen-concern"
+            },
+            {
+              "reference": "Observation/pv-001-caregiver-visual-behavior-concern"
+            },
+            {
+              "reference": "Observation/pv-001-developmental-or-neurologic-risk-context"
+            }
+          ],
+          "prediction": [
+            {
+              "outcome": {
+                "coding": [
+                  {
+                    "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                    "code": "research-review-priority",
+                    "display": "Research review priority"
+                  }
+                ],
+                "text": "Research-only review priority; not disease risk."
+              },
+              "qualitativeRisk": {
+                "coding": [
+                  {
+                    "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                    "code": "high-review-priority"
+                  }
+                ],
+                "text": "high-review-priority"
+              },
+              "rationale": "family history strabismus or amblyopia contributed 2 illustrative point(s). | clinician observed alignment concern contributed 3 illustrative point(s). | prior vision screen concern contributed 3 illustrative point(s)."
+            }
+          ],
+          "note": [
+            {
+              "text": "Research prototype only. Not clinically validated. Not a diagnosis, medical device, screening tool, or referral recommendation. Clinician judgment remains authoritative."
+            }
+          ]
+        }
+      },
+      {
+        "resource": {
+          "resourceType": "ServiceRequest",
+          "id": "research-referral-pv-001",
+          "status": "draft",
+          "intent": "proposal",
+          "priority": "routine",
+          "code": {
+            "coding": [
+              {
+                "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                "code": "specialist-review-proposal",
+                "display": "Specialist review proposal"
+              }
+            ],
+            "text": "Research workflow proposal for clinician consideration"
+          },
+          "subject": {
+            "reference": "Patient/pv-001"
+          },
+          "reasonCode": [
+            {
+              "coding": [
+                {
+                  "system": "https://example.org/fhir/CodeSystem/pediatric-vision-research",
+                  "code": "high-review-priority"
+                }
+              ],
+              "text": "Generated by a non-clinical research prototype"
+            }
+          ],
+          "note": [
+            {
+              "text": "Draft/proposal only. This resource must not be interpreted as a clinical referral order."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

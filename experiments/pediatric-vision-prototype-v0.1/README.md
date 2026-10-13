@@ -64,5 +64,6 @@ tests/
   test_risk_engine.py
 ```
 
-## Recommended v0.2
-The next version should add a larger synthetic FHIR cohort, referral/follow-up state tracking, structured audit logs, and fairness/missingness evaluation before introducing any learned model.
+**Technical & UAT Guide:** [View PDF](docs/Prototype_v0_1_Technical_UAT_Guide.pdf)
+
+

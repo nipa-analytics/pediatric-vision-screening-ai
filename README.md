@@ -26,19 +26,37 @@ This repository is intended to serve as a public research portfolio, including:
 - Responsible AI and validation considerations
 - Project updates related to pediatric vision AI research
 
-## Current Status
+## Current Research Status — October 2026
 
-This repository now focuses on responsible AI-assisted early pediatric vision risk detection before age 3, with emphasis on hospital and pediatric healthcare workflows, EHR-connected risk signals, referral pathways, and real-world validation.
+The Pediatric Vision Screening AI project has progressed from an initial research concept to an early-stage technical research prototype with a documented synthetic evaluation methodology.
 
-The goal is not clinical diagnosis but to explore how AI can support earlier identification of children who may need professional eye care evaluation.
+### Completed Research Milestones
 
-Current focus:
+- Published an open-access pediatric vision AI research white paper.
+- Developed and released Prototype v0.1 as a fixed GitHub research baseline.
+- Prepared User Acceptance Testing documentation.
+- Developed Research Protocol v1.0.
+- Established Clinical Evidence Matrix v1.0.
+- Prepared a Data Dictionary and FHIR R4 Mapping Review.
+- Documented unresolved clinical terminology and interoperability questions.
+- Developed a structured Synthetic Evaluation Plan for 150 controlled research scenarios.
+- Prepared an evaluation dashboard for tracking future technical results.
 
-- Literature review
-- Domain understanding
-- Public dataset exploration
-- Healthcare AI validation concepts
-- Responsible AI considerations
+### Current Research Priority
+
+The project is progressing toward controlled, reproducible synthetic evaluation of the initial prototype.
+
+The immediate focus is on assessing software behavior, data consistency, traceability, and adherence to predefined research safety requirements.
+
+### Research Limitations
+
+The project remains preclinical and research-focused. The synthetic evaluation has not yet established clinical diagnostic performance, effectiveness, or suitability for real-world patient care.
+
+The prototype is not intended for autonomous clinical decision-making.
+
+### Future Direction
+
+Further development will be informed by technical evaluation findings, clinical evidence review, and any necessary ethical and regulatory considerations.
 
 ## Related Writing
 
@@ -74,11 +92,21 @@ ORCID: https://orcid.org/0009-0009-4115-9652
 
 ## Intellectual Property Notice
 
-This repository represents independent research exploration by Nipa Shah. All written research concepts, workflow frameworks, responsible AI documentation, article summaries, and original analysis are authored by Nipa Shah unless otherwise cited.
+## Intellectual Property and Copyright Notice
 
-This work is shared publicly for educational, research, and collaboration purposes. Reuse, adaptation, or citation should provide appropriate attribution.
+Copyright © 2026 Nipa Shah. All rights reserved, subject to applicable law and any third-party rights.
 
-Commercial use, clinical deployment, medical device development, or proprietary use of this work requires written permission from the author.
+This repository contains original research writing, documentation, software, and other materials developed as part of the Pediatric Vision AI independent research project, except where otherwise attributed.
+
+No express license is granted by this notice to reproduce, modify, distribute, or commercially exploit original copyrighted materials. Any permission requests should be directed to the author.
+
+The repository is publicly accessible for research visibility and academic discussion. Public availability should not be interpreted as a grant of unrestricted commercial-use rights.
+
+Third-party software, datasets, standards, and referenced materials remain subject to their respective licenses and terms.
+
+This notice does not claim exclusive ownership of general scientific ideas, publicly established methods, clinical standards, or independently developed technologies.
+
+For collaboration, licensing, or commercial-use inquiries, please contact the author.
 
 ## Disclaimer
 
